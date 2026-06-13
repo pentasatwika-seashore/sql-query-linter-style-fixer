@@ -1,0 +1,5 @@
+SQL Lint Report
+================
+SELECT * detected
+SELECT should be uppercase
+FROM should be uppercase
