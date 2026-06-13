@@ -27,6 +27,29 @@ Project Structure
 - fixer.py : Fixes issues
 - main.py : Main execution file
 
+LLM Usage Demonstration
+
+Although the current prototype uses rule-based SQL linting, AI was used during development for:
+
+- SQL refactoring suggestions
+- Python code generation
+- Test case generation
+- Documentation generation
+- Agent Loop design
+
+Example Prompt:
+
+"Fix this SQL query. Remove SELECT *. Use uppercase SQL keywords. Return only corrected SQL."
+
+Expected LLM Output:
+
+Input:
+select * from employees
+
+Output:
+SELECT employee_id, employee_name
+FROM employees;
+
 Run Instructions
 
 python main.py
