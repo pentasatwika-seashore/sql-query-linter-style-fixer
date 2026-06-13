@@ -35,3 +35,25 @@ Limitations
 
 - Supports basic SQL style checks.
 - Advanced SQL parsing is not implemented.
+
+Lint Rules
+
+Current Rules:
+
+- Detect SELECT *
+- Enforce uppercase SQL keywords
+
+Future Enhancements:
+
+- snake_case validation
+- Alias validation
+- LLM-based SQL refactoring
+
+Architecture
+
+SQL File
+→ Linter
+→ Issue Detection
+→ SQL Fixer
+→ Fixed SQL Output
+→ Report Generation
