@@ -69,5 +69,24 @@ The system follows an Agent Loop approach:
 ## Live Demo
 
 https://sql-query-linter-style-fixer-ys9ekovcuxft3mk3w76azj.streamlit.app/
+
+## AI Layer
+
+The application uses an AI-assisted analysis workflow.
+
+1. Read SQL input file
+2. Analyze SQL for style violations
+3. Detect issues such as:
+   - SELECT *
+   - Non-standard SQL formatting
+4. Generate fix recommendations
+5. Apply automatic corrections
+6. Re-validate the SQL using an Agent Loop
+7. Generate corrected SQL output and lint report
+
+AI Capability Demonstrated:
+- Agent Loop
+- AI-assisted SQL analysis
+- Automated SQL refactoring suggestions
 → Fixed SQL Output
 → Report Generation
