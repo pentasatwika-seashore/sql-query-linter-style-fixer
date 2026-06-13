@@ -52,6 +52,16 @@ Future Enhancements:
 Architecture
 
 SQL File
+
+## Agent Loop
+
+The system follows an Agent Loop approach:
+
+1. Analyze SQL file
+2. Detect issues
+3. Apply fixes
+4. Re-analyze SQL
+5. Repeat until no issues are found
 → Linter
 → Issue Detection
 → SQL Fixer
