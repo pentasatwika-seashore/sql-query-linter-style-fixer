@@ -65,5 +65,9 @@ The system follows an Agent Loop approach:
 → Linter
 → Issue Detection
 → SQL Fixer
+
+## Live Demo
+
+https://sql-query-linter-style-fixer-ys9ekovcuxft3mk3w76azj.streamlit.app/
 → Fixed SQL Output
 → Report Generation
